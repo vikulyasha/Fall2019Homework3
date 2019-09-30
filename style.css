@@ -1,0 +1,32 @@
+html {
+    background-color: white; 
+    font-size: 100%;
+}
+/*header*/
+
+header{
+    width: 50%;
+    text-align: center;
+    display: inline;
+    font-size: 1.5rem;
+}
+
+/* main */
+
+h2 {
+    font-size: 2em;
+}
+
+.both-organizations {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.organization-1 {
+    border: 5px solid green;
+}
+
+.organization-2 {
+    border: 5px solid green;
+}
