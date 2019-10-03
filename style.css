@@ -10,22 +10,29 @@ header{
     font-size: 1.5rem;
 }
 
-/* main */
-
-h2 {
-    font-size: 2em;
+header h1 {
+    margin-bottom: 0px;
 }
 
-.both-organizations {
+/* main */
+
+div#container> ul {
+    border: 5px solid green;
+    padding: 10px 200px 10px 40px;
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+
+div#container {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.organization-1 {
-    border: 5px solid green;
-}
 
-.organization-2 {
-    border: 5px solid green;
+/* footer */ 
+
+footer {
+    width: 900px;
+    height: 150px;
 }
